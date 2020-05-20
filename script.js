@@ -65,7 +65,7 @@ function createBox(item) {
 
   box.classList.add("box");
   box.innerHTML = `
-  <img src=${image} alt=${text}/>
+  <img src="${image}" alt="${text}"/>
   <p class="info">${text}</p> 
   `;
   //speak event
